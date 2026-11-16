@@ -1,0 +1,43 @@
+Source: report Table 3.1. Original baseline, not actual hours.
+
+As of 2026-11-10
+TOTAL CAD 6038.1 percent 48.3
+
+As of 2026-11-16
+PM1 fraction 1 PV CAD 700
+H1 fraction 1 PV CAD 500
+P1 fraction 1 PV CAD 700
+U1 fraction 1 PV CAD 500
+U2 fraction 1 PV CAD 500
+U3 fraction 1 PV CAD 700
+U4 fraction 1 PV CAD 500
+U5 fraction 1 PV CAD 500
+U6 fraction 1 PV CAD 600
+F1 fraction 1 PV CAD 700
+U7 fraction 0.714286 PV CAD 357.14
+U8 fraction 0.714286 PV CAD 428.57
+U9 fraction 0.714286 PV CAD 428.57
+PM2 fraction 0.25 PV CAD 150.0
+I1 fraction 0 PV CAD 0
+I2 fraction 0 PV CAD 0
+I3 fraction 0 PV CAD 0
+I4 fraction 0 PV CAD 0
+I5 fraction 0 PV CAD 0
+CC fraction 0 PV CAD 0
+PM3 fraction 0 PV CAD 0
+PM4 fraction 0 PV CAD 0
+TOTAL CAD 7764.29 percent 62.11
+
+As of 2026-11-19
+TOTAL CAD 8833.33 percent 70.67
+
+As of 2026-12-10
+TOTAL CAD 12500 percent 100.0
+
+Line margins from observed extrema in Table 6.5
+left tape margin 451 clear margin 195
+right tape margin 506 clear margin 260
+Wheel circumference cm 20.420352
+Left manual pulses/rev 10.0
+Right manual pulses/rev 10.133333333333333
+PASS: report calculation checks. No physical accuracy inferred.

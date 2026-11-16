@@ -1,0 +1,11 @@
+void leftPulse();
+void counts(unsigned long &l,unsigned long &r);
+void motorOff();
+void drive();
+void zero();
+void row(const char *kind);
+void finish(const char *reason);
+void start(char command);
+int correction(int pwm,float target,float measured);
+void setup();
+void loop();
