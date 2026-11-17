@@ -1,0 +1,14 @@
+Current-source host tests. Mocked hardware, not physical acceptance.
+Autonomous_SimHeading_Watchdog SHA256 8170f7f7fb332917bff3942522eefdefc8e761db9efdde0451afb814769496c8
+PASS: watchdog hook/boot hold/restart/feed policy; modelled heading pauses through sensor wait and ends turn
+PASS: stale range over 300ms stops all four PWM outputs
+PASS: boundary stop and implemented 300ms reverse delay. R4 50ms criterion remains unmet
+PASS: 290000ms software operating timer stops all outputs
+PASS: feedback deadband, upper/lower PWM clamps and high-estimate duty reduction
+PASS: all 13 state/mode LED patterns at both blink phases. Physical latency not measured
+Distance_Speed_Validation SHA256 204a8172e4b5d68ba602760dea595eeb28a0f74673467a06d0e20705073f3790
+PASS: no auto-start, timed run, encoder distance stop, coast capture, manual rollout and missing-pulse stop
+Turn_Validation SHA256 1576e81ac7c6aad6f825fd94a536dd2120e622bd48e5c8a69d273dfd718be71f
+PASS: one-turn command, simulated angle, automatic stop/settle, left turn and manual stop
+PASS: analysis math, over-read detection, real turn-angle acceptance and invalid inputs
+PASS: all current-source test suites
