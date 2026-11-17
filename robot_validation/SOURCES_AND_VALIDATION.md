@@ -1,6 +1,5 @@
 # Validation
 
-Shared, AI-assisted code. Historical Due builds:
 
 | Sketch | Bytes |
 | --- | ---: |
