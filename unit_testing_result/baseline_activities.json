@@ -1,0 +1,178 @@
+[
+  {
+    "id": "PM1",
+    "activity": "Project proposal",
+    "window": "Oct 15 to Oct 23",
+    "days": "9",
+    "hours": "14",
+    "predecessors": "none"
+  },
+  {
+    "id": "H1",
+    "activity": "Power and mounts",
+    "window": "Oct 22 to Oct 28",
+    "days": "7",
+    "hours": "10",
+    "predecessors": "none"
+  },
+  {
+    "id": "P1",
+    "activity": "Plow hardware",
+    "window": "Oct 22 to Nov 11",
+    "days": "21",
+    "hours": "14",
+    "predecessors": "none"
+  },
+  {
+    "id": "U1",
+    "activity": "Motor handler",
+    "window": "Oct 22 to Nov 04",
+    "days": "14",
+    "hours": "10",
+    "predecessors": "none"
+  },
+  {
+    "id": "U2",
+    "activity": "Boundary handler",
+    "window": "Oct 22 to Nov 04",
+    "days": "14",
+    "hours": "10",
+    "predecessors": "none"
+  },
+  {
+    "id": "U3",
+    "activity": "IMU yaw and calibration",
+    "window": "Oct 22 to Nov 04",
+    "days": "14",
+    "hours": "14",
+    "predecessors": "none"
+  },
+  {
+    "id": "U4",
+    "activity": "Encoder speed and distance",
+    "window": "Nov 05 to Nov 11",
+    "days": "7",
+    "hours": "10",
+    "predecessors": "H1, U1"
+  },
+  {
+    "id": "U5",
+    "activity": "IR obstacle handler",
+    "window": "Nov 05 to Nov 11",
+    "days": "7",
+    "hours": "10",
+    "predecessors": "H1"
+  },
+  {
+    "id": "U6",
+    "activity": "Heading hold and turns",
+    "window": "Nov 05 to Nov 11",
+    "days": "7",
+    "hours": "12",
+    "predecessors": "U1, U3"
+  },
+  {
+    "id": "F1",
+    "activity": "States scheduler watchdog timer",
+    "window": "Nov 05 to Nov 11",
+    "days": "7",
+    "hours": "14",
+    "predecessors": "none"
+  },
+  {
+    "id": "U7",
+    "activity": "Closed loop speed limiter",
+    "window": "Nov 12 to Nov 18",
+    "days": "7",
+    "hours": "10",
+    "predecessors": "U1, U4"
+  },
+  {
+    "id": "U8",
+    "activity": "Ultrasonic range handler",
+    "window": "Nov 12 to Nov 18",
+    "days": "7",
+    "hours": "12",
+    "predecessors": "H1"
+  },
+  {
+    "id": "U9",
+    "activity": "Due state LED handler",
+    "window": "Nov 12 to Nov 18",
+    "days": "7",
+    "hours": "12",
+    "predecessors": "H1, F1"
+  },
+  {
+    "id": "PM2",
+    "activity": "Progress report",
+    "window": "Nov 16 to Nov 19",
+    "days": "4",
+    "hours": "12",
+    "predecessors": "see note"
+  },
+  {
+    "id": "I1",
+    "activity": "Motion integration",
+    "window": "Nov 19 to Nov 21",
+    "days": "3",
+    "hours": "8",
+    "predecessors": "U1, U3, U4, U6, U7"
+  },
+  {
+    "id": "I2",
+    "activity": "Boundary and states",
+    "window": "Nov 22 to Nov 25",
+    "days": "4",
+    "hours": "8",
+    "predecessors": "I1, U2, F1"
+  },
+  {
+    "id": "I3",
+    "activity": "IR recovery integration",
+    "window": "Nov 26 to Nov 27",
+    "days": "2",
+    "hours": "6",
+    "predecessors": "I2, U5"
+  },
+  {
+    "id": "I4",
+    "activity": "Range avoidance integration",
+    "window": "Nov 28 to Nov 30",
+    "days": "3",
+    "hours": "6",
+    "predecessors": "I3, U8"
+  },
+  {
+    "id": "I5",
+    "activity": "Status safety and plow",
+    "window": "Dec 01 to Dec 02",
+    "days": "2",
+    "hours": "8",
+    "predecessors": "I4, U9, P1, F1"
+  },
+  {
+    "id": "CC",
+    "activity": "System runs and charts",
+    "window": "Dec 03 to Dec 06",
+    "days": "4",
+    "hours": "10",
+    "predecessors": "I5"
+  },
+  {
+    "id": "PM3",
+    "activity": "Presentation preparation",
+    "window": "Dec 07 to Dec 10",
+    "days": "4",
+    "hours": "12",
+    "predecessors": "CC"
+  },
+  {
+    "id": "PM4",
+    "activity": "Final report and code",
+    "window": "Dec 07 to Dec 10",
+    "days": "4",
+    "hours": "18",
+    "predecessors": "CC"
+  }
+]

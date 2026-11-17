@@ -1,0 +1,13 @@
+Provenance: selected lines copied from the Serial Monitor output supplied by the user in the project chat.
+Assembled into this file on November 16, 2026. The original capture date is not established here.
+This is an excerpt, with intermediate status lines omitted. No new test was performed.
+
+11:42:39.466 -> BOOT reset_type=2 WDT_ms=750 (2=watchdog; send f to recover)
+11:42:39.736 -> L:3427/-1 R:3142/-1 IR:0,0 cm:43 FAST FAULT OK HEAD:SIM_TIME SIMdeg:0 Vcm/s:0,0 FPWM:0,0 CTRL:WATCHDOG_RESET RESET:2 LOOPmax_us:310
+11:42:39.972 -> L:3423/-1 R:3140/-1 IR:0,0 cm:43 FAST FAULT OK HEAD:SIM_TIME SIMdeg:0 Vcm/s:0,0 FPWM:0,0 CTRL:WATCHDOG_RESET RESET:2 LOOPmax_us:448
+11:42:40.204 -> L:3424/-1 R:3137/-1 IR:0,0 cm:51 FAST FAULT OK HEAD:SIM_TIME SIMdeg:0 Vcm/s:0,0 FPWM:0,0 CTRL:WATCHDOG_RESET RESET:2 LOOPmax_us:448
+11:42:42.953 -> L:3423/-1 R:3145/-1 IR:0,0 cm:43 FAST FAULT OK HEAD:SIM_TIME SIMdeg:0 Vcm/s:0,0 FPWM:0,0 CTRL:WATCHDOG_RESET RESET:2 LOOPmax_us:454
+
+Interpretation: 3.487 seconds separates the supplied boot and last status timestamps.
+That interval is post-boot observation time, not watchdog reset latency.
+FPWM is reported software state, not an electrical measurement of motor enables.

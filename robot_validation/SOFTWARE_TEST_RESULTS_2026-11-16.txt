@@ -1,0 +1,21 @@
+Software-only test rerun: November 16, 2026
+Host: macOS, mocked Arduino functions. No connected robot or new hardware measurements.
+C++ tests contain embedded sketch snapshots rather than compiling the .ino files directly.
+
+BUILD Autonomous_SimHeading_Watchdog_test.cpp exit=0
+
+RUN Autonomous_SimHeading_Watchdog_test.cpp exit=0
+PASS: watchdog hook/boot hold/restart/feed policy; modelled heading pauses through sensor wait and ends turn
+
+BUILD Distance_Speed_Validation_test.cpp exit=0
+
+RUN Distance_Speed_Validation_test.cpp exit=0
+PASS: no auto-start, timed run, encoder distance stop, coast capture, manual rollout and missing-pulse stop
+
+BUILD Turn_Validation_test.cpp exit=0
+
+RUN Turn_Validation_test.cpp exit=0
+PASS: one-turn command, simulated angle, automatic stop/settle, left turn and manual stop
+
+RUN test_analysis.py exit=0
+PASS: analysis math, over-read detection, real turn-angle acceptance and invalid inputs
