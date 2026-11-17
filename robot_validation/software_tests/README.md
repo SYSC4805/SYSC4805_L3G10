@@ -1,11 +1,9 @@
-# Software checks
+# Software tests
 
-With Python 3 and clang++ or g++ installed, run:
+Requires Python 3 and clang++ or g++. From this folder:
 
 ```sh
 python3 -B run_current_source_tests.py
 ```
 
-The runner tests the packaged sketches with mocked hardware and records source hashes. `test_analysis.py` uses synthetic measurements. Older `*_test.cpp` files are historical snapshots.
-
-Passing checks do not establish physical accuracy, timing or hardware reset behaviour.
+Tests use packaged sketches, mocked hardware and synthetic measurements. Older `*_test.cpp` files are snapshots. Passing checks do not prove physical performance.

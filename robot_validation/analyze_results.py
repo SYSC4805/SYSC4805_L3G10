@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""Analyze independently measured trials. Python3 standard library only.
-Usage: python3 analyze_results.py measured_results.csv
-Raw Serial CSV is evidence; this input sheet pairs it with external measurements.
-No measured rows means no passes; modelled angles are never used as actual angles.
-"""
+"""Analyze independent measurements: python3 analyze_results.py measured_results.csv."""
 import csv, math, sys
 CM_PER_PULSE=math.pi*6.5/10
 

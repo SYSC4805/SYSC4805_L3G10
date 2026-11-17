@@ -1,16 +1,19 @@
-# Evidence index
-
-Compiled November 16, 2026. Chat summaries, raw excerpts and software checks are labelled separately.
+# Evidence files
 
 | File | Contents |
 | --- | --- |
-| PROGRESS_LOG.md | Condensed team observations and development history |
-| watchdog_chat_excerpt.txt | Selected original Serial Monitor lines |
-| CURRENT_SOURCE_TEST_RESULTS.txt | Passing host checks and source hashes |
-| CALCULATION_RESULTS.txt | Planned value, sensor margins and encoder calculations |
-| REQUIREMENT_EVIDENCE_MATRIX.md | Requirement evidence and acceptance gaps |
-| UNIT_EVIDENCE_MAP.md | Unit handlers and available checks |
+| PROGRESS_LOG.md | Team observations |
+| watchdog_chat_excerpt.txt | Original log excerpts |
+| CURRENT_SOURCE_TEST_RESULTS.txt | Host checks and hashes |
+| CALCULATION_RESULTS.txt | Planned value and sensor calculations |
+| REQUIREMENT_EVIDENCE_MATRIX.md | Requirement status |
+| UNIT_EVIDENCE_MAP.md | Handlers and checks |
 
-Reproduce calculations with `python3 -B evidence/verify_report_calculations.py` from the repository root. Run software tests as described in their README.
+From the repository root:
 
-No new hardware measurements or actual labour hours were supplied. The empty measurement template is not a result.
+```sh
+python3 -B unit_testing_result/verify_report_calculations.py
+python3 -B robot_validation/software_tests/run_current_source_tests.py
+```
+
+No new hardware measurements or actual labour hours. Empty templates are not results.
