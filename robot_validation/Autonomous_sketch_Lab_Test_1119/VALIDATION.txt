@@ -1,0 +1,3 @@
+Arduino Due compile: PASS, 49824 bytes.
+PASS: approach hysteresis/PWM/LED, alternating obstacles independent of tape, 4cm offset, one-second feedback, PWM ceiling170, 2s missing-pulse stop, recovery through sonar loss, cruise/approach settings, obstacle stop/reverse/turn, blocked-path retry, automatic resume, obstacle and boundary recovery; missing-IMU start, error fallback without drive stop, mid-turn continuity, timed completion, paused timer and manual stop. Mocked hardware only.
+Hardware testing pending. Encoder settings unchanged.
